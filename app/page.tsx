@@ -341,30 +341,30 @@ export default function RefurbishedComputerReport() {
                         <div>
                           <div className="font-medium text-sm">Secure Erase (NVMe)</div>
                           <div className="text-sm text-muted-foreground">
-                            NVMe secure erase command executed successfully
+                            Comando NVMe secure erase realizado com sucesso
                           </div>
                         </div>
                       </div>
                       <div className="flex items-start gap-2">
                         <Check className="h-4 w-4 text-green-600 mt-0.5" />
                         <div>
-                          <div className="font-medium text-sm">DoD 5220.22-M (3 passes)</div>
-                          <div className="text-sm text-muted-foreground">Additional overwrite with verification</div>
+                          <div className="font-medium text-sm">NIST 800-88 Clear (1 passada)</div>
+                          <div className="text-sm text-muted-foreground">Sobreescrita com verificação</div>
                         </div>
                       </div>
                       <div className="flex items-start gap-2">
                         <Check className="h-4 w-4 text-green-600 mt-0.5" />
                         <div>
-                          <div className="font-medium text-sm">Zero-Fill Verification</div>
-                          <div className="text-sm text-muted-foreground">Final verification pass completed</div>
+                          <div className="font-medium text-sm">Verificação de All Zeros</div>
+                          <div className="text-sm text-muted-foreground">Verificação final realizada e arpovada</div>
                         </div>
                       </div>
                     </div>
 
                     <div className="pt-2">
-                      <h3 className="font-medium mb-2">Software Used</h3>
+                      <h3 className="font-medium mb-2">Software Utilizado</h3>
                       <div className="text-sm">
-                        <div>Blancco Drive Eraser v6.15.3</div>
+                        <div>Blancco Drive Eraser v7.14.1</div>
                         <div className="text-muted-foreground">NIST 800-88 compliant</div>
                       </div>
                     </div>
@@ -537,30 +537,30 @@ export default function RefurbishedComputerReport() {
         {/* Certification Summary */}
         <Card className="bg-gray-800 text-white">
           <CardHeader>
-            <CardTitle>Certification Summary</CardTitle>
-            <CardDescription>Final assessment and certification details</CardDescription>
+            <CardTitle>Resumo do Certificado</CardTitle>
+            <CardDescription>Veredito final e detalhes</CardDescription>
           </CardHeader>
           <CardContent>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-black">
               <div className="flex flex-col items-center p-4 border rounded-lg bg-green-50">
                 <CheckCircle className="h-8 w-8 text-green-600 mb-2" />
-                <h3 className="font-medium">Performance Verified</h3>
+                <h3 className="font-medium">Performance Verificada</h3>
                 <p className="text-sm text-center text-muted-foreground mt-1">
-                  All hardware components tested and verified to be in excellent working condition.
+                  Todos os componentes de hardware testados e aprovados em boa condição.
                 </p>
               </div>
               <div className="flex flex-col items-center p-4 border rounded-lg bg-green-50">
                 <ShieldCheck className="h-8 w-8 text-green-600 mb-2" />
-                <h3 className="font-medium">Data Sanitized</h3>
+                <h3 className="font-medium">Dados Sanitizados</h3>
                 <p className="text-sm text-center text-muted-foreground mt-1">
-                  Complete data sanitization performed following NIST 800-88 guidelines.
+                  Sanitização de dados realizada seguindo as diretrizes da NIST 800-88.
                 </p>
               </div>
               <div className="flex flex-col items-center p-4 border rounded-lg bg-green-50">
                 <Battery className="h-8 w-8 text-green-600 mb-2" />
-                <h3 className="font-medium">Battery Certified</h3>
+                <h3 className="font-medium">Bateria Certificada</h3>
                 <p className="text-sm text-center text-muted-foreground mt-1">
-                  Battery health verified at 92% capacity with excellent performance characteristics.
+                  Saúde da bateria verificada em 92% com boas características de performance.
                 </p>
               </div>
             </div>
