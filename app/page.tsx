@@ -535,7 +535,7 @@ export default function RefurbishedComputerReport() {
         </Tabs>
 
         {/* Certification Summary */}
-        <Card>
+        <Card className="bg-gray-800 text-white">
           <CardHeader>
             <CardTitle>Certification Summary</CardTitle>
             <CardDescription>Final assessment and certification details</CardDescription>
