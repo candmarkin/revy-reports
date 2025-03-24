@@ -567,24 +567,24 @@ export default function RefurbishedComputerReport() {
 
             <div className="mt-6 p-4 border rounded-lg">
               <div className="flex items-start gap-3">
-                <div className="bg-blue-100 p-2 rounded-full">
+                <div className="bg-gray-800 p-2 rounded-full">
                   <CheckCircle className="h-6 w-6 text-blue-600" />
                 </div>
                 <div>
-                  <h3 className="font-medium">Technician Certification</h3>
+                  <h3 className="font-medium">Certificação Técnica</h3>
                   <p className="text-sm text-muted-foreground mt-1">
-                    I certify that this device has been thoroughly tested according to our refurbishment standards and
-                    meets all quality requirements for Grade A certification.
+                  Certifico que este dispositivo foi testado de acordo com nossos padrões de recondicionamento e
+                  atende a todos os requisitos de qualidade para certificação de Grau A.
                   </p>
                   <div className="mt-3 flex items-center gap-4">
                     <div>
-                      <div className="text-sm font-medium">John Smith</div>
-                      <div className="text-xs text-muted-foreground">Senior Technician (ID: T4582)</div>
+                      <div className="text-sm font-medium">Marcos Candido</div>
+                      <div className="text-xs text-muted-foreground">Analista de Requisitos (ID: T4582)</div>
                     </div>
                     <div className="text-sm font-medium border-t border-dashed border-muted-foreground/30 pt-3 mt-3">
-                      Signature: <span className="italic">John Smith</span>
+                      Assinatura: <span className="italic">Marcos Candido</span>
                       <span className="text-xs text-muted-foreground ml-2">
-                        Digitally signed on {new Date().toLocaleDateString()}
+                        Assinado digitalmente em {new Date().toLocaleDateString()}
                       </span>
                     </div>
                   </div>
@@ -594,8 +594,8 @@ export default function RefurbishedComputerReport() {
           </CardContent>
           <CardFooter className="flex flex-col sm:flex-row gap-4 items-start sm:items-center justify-between">
             <div className="flex items-center gap-2">
-              <Badge className="bg-green-600">CERTIFIED REFURBISHED</Badge>
-              <span className="text-sm text-muted-foreground">12-Month Warranty Included</span>
+              <Badge className="bg-green-600">RECONDICIONADO</Badge>
+              <span className="text-sm text-muted-foreground">Garantia de 12 Meses Inclusa</span>
             </div>
           </CardFooter>
         </Card>
