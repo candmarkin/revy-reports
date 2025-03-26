@@ -160,8 +160,8 @@ export default function RefurbishedComputerReport() {
         {/* Detailed Test Results */}
         <Tabs defaultValue="stress-tests " className="mb-8">
           <TabsList className="grid w-full grid-cols-3 bg-gray-800">
-            <TabsTrigger value="stress-tests">Testes de Estresse</TabsTrigger>
-            <TabsTrigger value="data-wipe">Sanitização de Dados</TabsTrigger>
+            <TabsTrigger value="stress-tests">Testes</TabsTrigger>
+            <TabsTrigger value="data-wipe">DataWipe</TabsTrigger>
             <TabsTrigger value="battery-life">Bateria</TabsTrigger>
           </TabsList>
 
